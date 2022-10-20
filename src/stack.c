@@ -16,7 +16,7 @@ void push(int x, stack* s){
 
 int pop(stack* s){
 // implement pop here
-assert(s-> head != NULL) //checks the precondition, stack should not be empty//
+assert(s-> head != NULL); //checks the precondition, stack should not be empty//
 int pop_value; //the value of pop//
 node *temp = s-> head; 
 pop_value = s-> head -> data; 
